@@ -1,4 +1,9 @@
-# ProjetoGiphy
+# Giphy's Search Engine with Angular 9
+
+This project is a gif search engine and is the final project of the Angular Module for [Toti Diversidade](https://totidiversidade.com.br/).  
+I used HTML, CSS, Javascript, Typescript and Angular internal libraries.  
+The template I used is from [Colorlib](https://colorlib.com/wp/) with some modifications :)  
+Hope you like!  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
