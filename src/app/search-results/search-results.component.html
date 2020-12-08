@@ -1,0 +1,37 @@
+<div class="s128">
+  <section>
+    <div class="inner-form">
+
+      <div class="row">
+        <div class="input-field">
+          <h1>Giphy's search engine</h1>
+        </div>
+      </div>
+
+      <div id="another" class="row">
+        <div class="input-field second">
+          Lets search more Giphy's? :)
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field first" id="first">
+          <button class="button" type="button" onclick="javascript:location.href='/home'" > Back </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field imgs">
+            <img *ngFor="let giphy of giphys.data" [src]="giphy.images.fixed_width.url">
+        </div>
+      </div>
+
+      <div id="footer" class="row">
+        <div class="input-field second">
+          By Dingo
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>

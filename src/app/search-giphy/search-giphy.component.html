@@ -1,0 +1,31 @@
+<div class="s128">
+  <form #formy="ngForm" (ngSubmit)="searchGiphy(formy.form)" >
+    <div class="inner-form">
+
+      <div class="row">
+        <div class="input-field">
+          <h1>Giphy's search engine</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field first" id="first">
+          <input class="input" id="inputFocus" placeholder="Giphy" name="enter" [(ngModel)]="enter" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field second">
+          What kind of Giphy are you looking for today? :)
+        </div>
+      </div>
+
+      <div id="footer" class="row">
+        <div class="input-field second">
+          By Dingo
+        </div>
+      </div>
+
+    </div>
+  </form>
+</div>
